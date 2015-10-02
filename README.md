@@ -127,3 +127,11 @@ You must make sure instantclient 12.1 both basic and SDK are expanded at same lo
 Dan Davis, Systems/Applications Architect (Contractor),
 Office of Computer and Communications Systems,
 National Library of Medicine, NIH
+
+## Acknowledgements ##
+
+This is mostly a packaging of a subset of Christoph Gohlke's [builds](http://www.lfd.uci.edu/~gohlke/pythonlibs/).   He has been most generous in describing how he does it.   I've done it myself because in goverment we cannot just take anyone's packages and use them, even anyone so excellent as Dr. Gohlke. 
+
+## Disclaimer ##
+
+These packages are built at NLM only for a development environment.  They are not expected to be used for production.   Production runs on Linux, only we don't all have Linux laptops that can talk to our servers.

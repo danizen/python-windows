@@ -8,7 +8,7 @@ rem #   - Add somewhere to path
 rem # 
 
 setlocal
-CALL msvc10-x64.cmd
+CALL msvc14-x64.cmd
 
 set SOURCEDIR=win-iconv-0.0.6
 set SOLUTION=win_iconv.sln
@@ -21,7 +21,7 @@ set CMAKEOPT=^
     -DBUILD_STATIC=ON ^
     -DBUILD_SHARED=OFF
 
-set BUILDDIR=%SOURCEDIR%-vc10-x64
+set BUILDDIR=%SOURCEDIR%-vc14-x64
 
 copy /Y %SOURCEDIR%\iconv.h %INCLIB%\
 copy /Y %SOURCEDIR%\mlang.h %INCLIB%\

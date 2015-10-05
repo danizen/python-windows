@@ -5,12 +5,12 @@ rem # change configure.in to be configure.ac on line 17 of libxml2-2.9.2\win32\c
 rem # 
 
 setlocal
-CALL msvc10-x64.cmd
+CALL msvc14-x64.cmd
 
 set SOURCEDIR=libxml2-2.9.2
 set include=%include%;%INCLIB%
 set lib=%lib%;%INCLIB%
-set BUILDDIR=%SOURCEDIR%-vc10-x64
+set BUILDDIR=%SOURCEDIR%-vc14-x64
 
 copy /Y %SOURCEDIR%\include\*.h %INCLIB%\
 rd /q /s %INCLIB%\libxml

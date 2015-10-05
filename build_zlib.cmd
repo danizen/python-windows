@@ -3,7 +3,7 @@ rem # Based on email from Christoph Gohlke <cgohlke@uci.edu>
 rem # 
 
 setlocal
-CALL msvc10-x64.cmd
+CALL msvc14-x64.cmd
 cd zlib-1.2.8
 
 copy /Y zlib.h %INCLIB%\
